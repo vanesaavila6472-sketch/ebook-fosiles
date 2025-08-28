@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Spinosaurus en RA</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; text-align:center; margin: 0; padding: 0; }
+    model-viewer { width: 100%; height: 80vh; }
+  </style>
+</head>
+<body>
+  <h1>Spinosaurus</h1>
+  <p>Escaneá con tu celular para ver el Spinosaurus en realidad aumentada</p>
+  
+  <model-viewer 
+    src="spinosaurus.glb" 
+    ios-src="spinosaurus.usdz" 
+    alt="Spinosaurus" 
+    auto-rotate 
+    camera-controls 
+    ar 
+    ar-modes="webxr scene-viewer quick-look">
+  </model-viewer>
+</body>
+</html>

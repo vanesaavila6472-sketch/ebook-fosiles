@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Dino en RA</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    body { font-family: Arial; text-align:center; margin: 0; padding: 0;}
+    model-viewer { width: 100%; height: 80vh; }
+  </style>
+</head>
+<body>
+  <h1>Dino</h1>
+  <p>Escaneá con tu celular para ver en realidad aumentada</p>
+  <model-viewer src="dino.glb" ios-src="dino.usdz" alt="Dino" auto-rotate camera-controls ar ar-modes="webxr scene-viewer quick-look"></model-viewer>
+</body>
+</html>
